@@ -140,7 +140,7 @@ body {
 
 .social-media {
     margin: 125px auto;
-    
+
 }
 
 .social-media-header {
@@ -153,3 +153,30 @@ body {
     gap: 20px;
 }
 
+/* hero-section styles */
+
+.hero-section {
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    padding: 120px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 45px;
+}
+
+.email-input {
+    width: 700px;
+    padding: 20px;
+}
+
+input[placeholder] {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+}
