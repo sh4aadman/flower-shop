@@ -20,6 +20,7 @@ body {
     text-align: center;
     font-size: 40px;
     font-weight: 800;
+    margin-bottom: 24px;
 }
 
 .section-description {
@@ -134,3 +135,21 @@ body {
     align-items: center;
     max-width: 600px;
 }
+
+/* social-media styles */
+
+.social-media {
+    margin: 125px auto;
+    
+}
+
+.social-media-header {
+    margin-bottom: 45px;
+}
+
+.social-media-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
