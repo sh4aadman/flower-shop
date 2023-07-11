@@ -31,13 +31,47 @@ body {
     line-height: 30px;
 }
 
-/* header styles */
+/* navbar styles */
 
-.header {
-    background-color: rgba(229, 84, 115, 0.10);
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
 }
 
+.nav-title {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.nav-title span {
+    color: #272727;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #272727;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+/* header styles */
+
 .banner {
+    background-color: rgba(229, 84, 115, 0.10);
     display: flex;
     padding: 150px 240px;
 }
