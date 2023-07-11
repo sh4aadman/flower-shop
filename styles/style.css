@@ -96,3 +96,23 @@ body {
     line-height: 30px;
     text-decoration-line: underline;
 }
+
+/* hot deal styles */
+
+.hot-deal {
+    border-radius: 8px;
+    background-color: rgba(229, 84, 115, 0.05);
+    padding: 100px 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.hot-deal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+}
+
