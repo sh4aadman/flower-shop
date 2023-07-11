@@ -97,6 +97,25 @@ body {
     text-decoration-line: underline;
 }
 
+/* delivery-support styles */
+
+.delivery-support {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    max-width: 1440px;
+    height: 320px;
+    margin: 125px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delivery-tile figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* hot deal styles */
 
 .hot-deal {
@@ -115,4 +134,3 @@ body {
     align-items: center;
     max-width: 600px;
 }
-
